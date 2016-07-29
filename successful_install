@@ -1,0 +1,500 @@
+   15  ls
+   16  git add --all
+   17  git commit -m "Rearrange ionic."
+   18  git push origin add-search 
+   19  ls
+   20  ionic start
+   21  ionic serve
+   22  cd ionic-app/
+   23  ionic serve
+   24  ls
+   25  cd
+   26  ls
+   27  cd /Applications/MAMP/htdocs/wordpress/
+   28  cd wp-content/themes/portfolio/
+   29  ls
+   30  sublime .
+   31  ls
+   32  cd ..
+   33  ls
+   34  cd portfolio/
+   35  ls
+   36  cd ..
+   37  ls
+   38  cd twentysixteen/
+   39  ls
+   40  sublime .
+   41  cd
+   42  ls
+   43  cd Projects/
+   44  ls
+   45  mkdir portfolio
+   46  cd portfolio/
+   47  ls
+   48  touch index.html
+   49  sublime index.html 
+   50  cd ..
+   51  ls
+   52  cd portfolio/
+   53  touch main.css
+   54  sublime main.css 
+   55  cd ../murakami/
+   56  git checkout master
+   57  git stash
+   58  git checkout master
+   59  git pull
+   60  ls
+   61  sublime .
+   62  git checkout -b some-style
+   63  cd ionic-app/
+   64  ionic serve
+   65  git add --all
+   66  git commit -m "Add some style."
+   67  git push origin some-style 
+   68  cd ..
+   69  ls
+   70  cd ..
+   71  cd murakami/
+   72  git checkout master
+   73  git pull
+   74  git checkout -b finish-login
+   75  cd ionic-app/
+   76  ionic serve
+   77  ionic serve
+   78  cd ..
+   79  cd rails-server/
+   80  rails c
+   81  rails c
+   82  ls
+   83  rails c
+   84  rake routes
+   85  rake routes
+   86  ls
+   87  cd ..
+   88  ls
+   89  cd rails-server/
+   90  rails c
+   91  rake routes
+   92  ls
+   93  cd ..
+   94  ls
+   95  git checkout master
+   96  git pull
+   97  git checkout finish-dash 
+   98  git add --all
+   99  git status
+  100  git commit -m "Finish dash view."
+  101  git push origin finish-dash 
+  102  git checkout master
+  103  git pull
+  104  ls
+  105  git pull
+  106  cd ionic-app/
+  107  ls
+  108  ionic serve
+  109  cd ..
+  110  ls
+  111  git pull
+  112  git checkout -b styles
+  113  cd ionic-app/
+  114  ionic serve
+  115  sublime .
+  116  git checkout master
+  117  cd ..
+  118  git pull
+  119  git stash
+  120  git pull
+  121  sublime .
+  122  ls
+  123  git pull
+  124  ls
+  125  git pull
+  126  git checkout -b "fix-more-bugs"
+  127  git add --all
+  128  git status
+  129  git commit -m "Add profile back in."
+  130  git push origin fix-more-bugs 
+  131  git checkout master
+  132  git pull
+  133  git checkout -b "fix-even-more-bugs"
+  134  git add --all
+  135  git status
+  136  git commit -m "Fix chapter menu."
+  137  git add --all
+  138  git commit -m "Fix profile, polish comments and reactions."
+  139  git status
+  140  git push origin fix-even-more-bugs 
+  141  git checkout master
+  142  git pull
+  143  git pull
+  144  git pull
+  145  ls
+  146  git pull
+  147  git pull
+  148  git pull
+  149  git stash
+  150  git pull
+  151  cd ionic-app/
+  152  ionic serve
+  153  ls
+  154  mv ../../Downloads/skateboard.jpg source/
+  155  ls
+  156  cd source/
+  157  ls
+  158  ls
+  159  ls
+  160  mv skateboard.png images/
+  161  ls
+  162  cd ..
+  163  sublime .
+  164  cd rails-server/
+  165  heroku run logs
+  166  heroku run console
+  167  cd ..
+  168  ls
+  169  cd ..
+  170  ls
+  171  cd portfolio/
+  172  ls
+  173  open index.html 
+  174  sublime .
+  175  ls
+  176  cd ..
+  177  ls
+  178  cd something/
+  179  ls
+  180  cd ..
+  181  cd sample/
+  182  ls
+  183  sublime .
+  184  cd ..
+  185  ls
+  186  gem install dugway
+  187  dugway create marino
+  188  ls
+  189  cd marino
+  190  ls
+  191  dugway server
+  192  ls
+  193  cd source/
+  194  ls
+  195  sublime .
+  196  cd ..
+  197  ls
+  198  cd ..
+  199  ls
+  200  cd sample/
+  201  ls
+  202  sublime .
+  203  ls
+  204  cd ..
+  205  ls
+  206  cd marino/
+  207  ls
+  208  sublime .
+  209  dugway server
+  210  dugway server
+  211  dugway server
+  212  dugway server
+  213  dugway server
+  214  cd ..
+  215  ls
+  216  cd portfolio/
+  217  ls
+  218  open index.html 
+  219  sublime .
+  220  open index.html 
+  221  ls
+  222  cd ..
+  223  ls
+  224  cd marino/
+  225  ls
+  226  cd source/
+  227  ls
+  228  sublime .
+  229  dugway server
+  230  cd ..
+  231  dugway server
+  232  ls
+  233  dugway server
+  234  dugway server
+  235  dugway server
+  236  ls
+  237  cd ..
+  238  ls
+  239  git clone https://github.com/eealexander2/room-me.git
+  240  cd room-me/
+  241  git checkout -b make-rails-db
+  242  ls
+  243  rails g room-me
+  244  rails new room-me
+  245  bundle install
+  246  ls
+  247  cd room-me/
+  248  ls
+  249  bundle install
+  250  ls
+  251  cd ..
+  252  ls
+  253  cd room-me/
+  254  ls
+  255  cd ..
+  256  ls
+  257  rm -rf room-me/
+  258  ls
+  259  rails new room-me -d postgresql
+  260  bundle install
+  261  cd room-me/
+  262  bundle install
+  263  rails g roommate
+  264  rails g migration roommates
+  265  sublime .
+  266  rails g migration matches
+  267  rails g migration messages
+  268  rails g migration CreateRoommates
+  269  rails g migration CreateMatches
+  270  rails g migration CreateMessages
+  271  rake db:create
+  272  rake db:migrate
+  273  rails g model Roommate
+  274  rails g model
+  275  rails g model roommate
+  276  rake db:drop
+  277  rails g model roommate
+  278  rails g model match
+  279  ls
+  280  cd app/
+  281  rails g model match --skip
+  282  rails g model message --skip
+  283  rails g model roommate --skip
+  284  rails c
+  285  rails db:create
+  286  rake db:create
+  287  rake db:migrate
+  288  rails c
+  289  rake db:drop
+  290  rake db:create
+  291  rake db:migrate
+  292  rails c
+  293  rails c
+  294  rails c
+  295  rails c
+  296  rails c
+  297  rails c
+  298  rails g migration responses
+  299  rails g migration createResponses
+  300  rails g model Response
+  301  rails g model Response --skip migration
+  302  rake db:drop
+  303  rake db:create
+  304  rake db:migrate
+  305  rails c
+  306  ls
+  307  cd ..
+  308  ls
+  309  cd ..
+  310  ls
+  311  git add --all
+  312  git commit -m "Add migration and models."
+  313  git push origin make-rails-db 
+  314  nano .bash_profile
+  315  sublime .bash_profile
+  316  open ~/.bash_profile
+  317  s .
+  318  open ~/.bash_profile
+  319  /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl .
+  320  /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl
+  321  /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl
+  322  /Applications/Sublime\ Text.app/Contents/SharedSupport/bin
+  323  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
+  324  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  325  open ~/.bash_profile
+  326  ls
+  327  git pull
+  328  git checkout master
+  329  git pull
+  330  sublime .
+  331  ls
+  332  git pull
+  333  git checkout -b continue-backend
+  334  sublime .
+  335  sublime ../murakami/rails-server/
+  336  ls
+  337  brew update
+  338  brew install node
+  339  brew upgrade node
+  340  brew install watchman
+  341  npm install -g react-native-cli
+  342  ls
+  343  react-native init room-me-react
+  344  react-native init roommereact
+  345  ls
+  346  cd roommereact/
+  347  ls
+  348  cd ..
+  349  ls
+  350  cd roommereact/
+  351  npm start
+  352  ls
+  353  cd ..
+  354  ls
+  355  sublime .
+  356  ls
+  357  git add --all
+  358  git status
+  359  git commit -m "Add react template and finish backend."
+  360  git push origin continue-backend 
+  361  ls
+  362  ls
+  363  sublime .
+  364  npm install --save moment
+  365  ls
+  366  cd Projects/
+  367  ls
+  368  react-native init weekdays --version 0.24.0
+  369  ls
+  370  cd weekdays/
+  371  open .
+  372  npm start
+  373  npm start
+  374  cd ..
+  375  ls
+  376  react-native init stopwatch
+  377  cd stopwatch/
+  378  ls
+  379  sublime .
+  380  open .
+  381  npm start
+  382  ls
+  383  cd ..
+  384  ls
+  385  git clone https://github.com/thatnewwen/portfolio.git
+  386  mv portfolio/ ../
+  387  ls
+  388  git clone https://github.com/thatnewwen/portfolio.git
+  389  ls
+  390  cd portfolio/
+  391  ls
+  392  mv ../../portfolio/* .
+  393  ls
+  394  cd ..
+  395  ls
+  396  cd ..
+  397  cd Projects/
+  398  ls
+  399  cd portfolio/
+  400  ls
+  401  git push origin master 
+  402  git add --all
+  403  git commit -m "Add initial portfolio."
+  404  git push origin master
+  405  ls
+  406  mkdir images
+  407  ls
+  408  mv *.jpg images/
+  409  ls
+  410  mv *.png images/
+  411  ls
+  412  open index.html 
+  413  sublime index.html 
+  414  open index.html 
+  415  git checkout -b iamges-folder
+  416  ls
+  417  git add --all
+  418  git commit -m "Add images folder."
+  419  git push origin iamges-folder 
+  420  open index.html 
+  421  sublime index.html 
+  422  ls
+  423  cd ..
+  424  ls
+  425  git clone https://github.com/eealexander2/devbright.git
+  426  cd devbright/
+  427  ls
+  428  cd DevBright/
+  429  ls
+  430  rails s
+  431  rails s
+  432  rails s
+  433  ls
+  434  sublime .
+  435  rails s
+  436  rails s
+  437  cd ..
+  438  ls
+  439  cd ..
+  440  ls
+  441  git clone https://github.com/thatnewwen/wickipedia.git
+  442  cd ..
+  443  ls
+  444  cd Projects/
+  445  ls
+  446  cd devbright/
+  447  cd DevBright/
+  448  rails s
+  449  ls
+  450  cd ..
+  451  ls
+  452  cd ..
+  453  ls
+  454  cd wickipedia/
+  455  bundle 
+  456  ls
+  457  rake db:create
+  458  be rake db:create
+  459  be rake db:migrate
+  460  rails s
+  461  sublime .
+  462  cd ..
+  463  ls
+  464  cd devbright/DevBright/
+  465  sublime .
+  466  rails s
+  467  ls
+  468  cd ..
+  469  ls
+  470  cd ..
+  471  ls
+  472  cd wickipedia/
+  473  ls
+  474  rails c
+  475  rails s
+  476  ls
+  477  cd ..
+  478  ls
+  479  cd devbright/
+  480  ls
+  481  cd DevBright/
+  482  ls
+  483  sublime .
+  484  rails s
+  485  ls
+  486  bundle install
+  487  rake db:create
+  488  rake db:migrate
+  489  sublime .
+  490  rake routes
+  491  rake db:drop
+  492  rake db:drop
+  493  rake db:create
+  494  rake db:migrate
+  495  sublime .
+  496  bundle update
+  497  rails c
+  498  rails c
+  499  be rake db:seed
+  500  ls
+  501  cd Projects/
+  502  cd MAMP/
+  503  ls
+  504  cd artisticritique/
+  505  ls
+  506  sublime .
+  507  ls
+  508  cd ..
+  509  ls
+  510  cd artisticritique/
+  511  sublime .
+  512  irb
+  513  history
+  514  history > successful_install
