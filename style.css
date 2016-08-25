@@ -901,10 +901,10 @@ object {
 	text-align: center;
 	margin: 0 2em;
 	bottom: 2em;
-  font-family: 'Vollkorn', serif;
+  font-family: 'Economica', sans-serif;
 	border: 5px black;
-	left: 10%;
-	right: 10%;
+	left: 20%;
+	right: 20%;
 	display: none;
 }
 
@@ -954,7 +954,7 @@ object {
 }
 
 .overlay {
-	background-color: rgba(0,0,0, 0.5);
+	background-color: rgba(0,0,0, 0.3);
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -1016,7 +1016,7 @@ object {
 
 #primary-menu li a{
 	color: white;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Lato', sans-serif;
 }
 
 .site-footer {
@@ -1105,7 +1105,7 @@ object {
 	padding: 2em;
 	text-align: center;
 	color: white;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Lato', serif;
 }
 
 .site-title .thenutshells{
