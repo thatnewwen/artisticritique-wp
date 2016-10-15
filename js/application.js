@@ -37,4 +37,15 @@ $(document).ready(function(){
       checkAnimation();
   });
 
+  $('.scroll-down').click(function(event) {
+      // Preventing default action of the event
+      event.preventDefault();
+      // Getting the height of the document
+      var n = $(window).height();
+      console.log("hi");
+      $('html, body').animate({ scrollTop: n }, 1000);
+  //                                       |    |
+  //                                       |    --- duration (milliseconds) 
+  //                                       ---- distance from the top
+  });
 });

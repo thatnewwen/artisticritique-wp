@@ -10,14 +10,15 @@
 ?>
 
 <?php if ( is_single() ) { ?>
-  <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+  <i class="scroll-down arrow fa fa-chevron-down"></i>
+  <article id="post-<?php the_ID(); ?>" <?php post_class("singlepost"); ?>>
 <?php } else { ?>
 	<article id="post-<?php the_ID(); ?>" <?php post_class("multipost"); ?>>
 <?php } ?>
 
   <?php the_post_thumbnail('full'); ?>
-  <div class="overlay">
-	<header class="entry-header">
+  <div class="overlay animatedParent">
+	<header class="entry-header animated fadeInUp">
 		<?php
 			if ( is_single() ) {
 				the_title( '<h1 class="entry-title">', '</h1>' );

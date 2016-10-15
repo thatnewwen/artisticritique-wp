@@ -55,7 +55,7 @@ html {
 body {
 	margin: 0;
 	background: snow;
-  border-top: 3px solid orangered;
+  border-top: 3px solid #d45349;
 }
 
 article,
@@ -898,14 +898,11 @@ object {
 
 .entry-header {
 	position: absolute;
-	text-align: center;
-	margin: 0 2em;
-	bottom: 2em;
-  font-family: 'Economica', sans-serif;
+	font-family: 'Abel', sans-serif;
+	text-transform: uppercase;
 	border: 5px black;
-	left: 20%;
-	right: 20%;
-	display: none;
+	left: 20px;
+	right: 20px;
 }
 
 .multipost{
@@ -923,15 +920,25 @@ object {
 }
 
 .post img {
-	min-width: 100%;
 	min-height: 100%;
+}
 
+@media screen and (max-width: 700px) {
+	img {
+		max-width: none;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	img {
+		min-width: 100%;
+	}
 }
 
 .entry-header a,.entry-header a:visited {
 	color: white;
 	text-decoration: none;
-	opacity: 0.7;
+	opacity: 0.3;
 	transition: opacity 0.8s ease;
 }
 
@@ -940,29 +947,28 @@ object {
 }
 
 .entry-meta {
-	color: white;
+	color: #d45349;
 
 }
 
 .entry-title {
-	font-size: 70px;
-	margin-bottom: 0;
-	opacity: 1.0;
+	font-size: 8vw;
+	margin: 0px;
+	opacity: 1;
 	color: white;
-
-
 }
 
 .overlay {
-	background-color: rgba(0,0,0, 0.3);
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	margin: auto;
-	height: 100%;
-	transition: background-color 0.8s ease;
-
+  background-color: rgba(0,0,0, 0.2);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  transition: background-color 0.8s ease;
+  align-items: center;
 }
 
 .overlay:hover {
@@ -977,7 +983,23 @@ object {
 	margin-right: 15%;
   margin-top: 45px;
   margin-bottom: 45px;
+}
 
+@media screen and (max-width: 600px) {
+	.content, .entry-content {
+		width: inherit;
+		margin: 50px;
+		font-family: 'Vollkorn', serif;
+		float: none;
+		text-align: justify;
+	}
+	.post-meta {
+		display: none;
+	}
+
+	.menu-toggle {
+		display: none;
+	}
 }
 
 #masthead {
@@ -994,7 +1016,8 @@ object {
 .site-title a {
 	text-decoration: none;
   color: white;
-	font-family: 'Questrial', sans-serif;
+  font-family: 'Abel', sans-serif;
+  text-transform: uppercase;
   font-size: 25px;
   opacity: 0.8;
   transition: opacity 0.8s ease;
@@ -1016,7 +1039,8 @@ object {
 
 #primary-menu li a{
 	color: white;
-	font-family: 'Lato', sans-serif;
+  font-family: 'Abel', sans-serif;
+  text-transform: uppercase;
 }
 
 .site-footer {
@@ -1077,6 +1101,8 @@ object {
 	font-size: 18px;
   color: gray;
   margin-top: 5px;
+  font-family: 'Abel', serif;
+  text-transform: uppercase;
 }
 
 .tag-name a{
@@ -1092,6 +1118,8 @@ object {
 .title {
 	font-size: 20px;
 	font-weight: bold;
+	font-family: 'Abel', serif;
+  text-transform: uppercase;
 }
 
 .category-title {
@@ -1105,7 +1133,8 @@ object {
 	padding: 2em;
 	text-align: center;
 	color: white;
-	font-family: 'Lato', serif;
+	font-family: 'Abel', serif;
+	text-transform: uppercase;
 }
 
 .site-title .thenutshells{
@@ -1139,7 +1168,7 @@ object {
 }
 
 .site-footer h2:hover{
-  color: orangered;
+  color: #d45349;
 }
 
 .site-footer a{
@@ -1152,7 +1181,7 @@ object {
 }
 
 .nav-text-arrow{
-	font-family: 'Vollkorn', serif;
+	font-family: 'Abel', serif;
 	color: #b5b6b4;
 	text-decoration: none;
 	font-size: 25px;
@@ -1161,4 +1190,22 @@ object {
 .nav-text-arrow:hover,.nav-text-arrow:hover .arrow{
 	color: #1d1d1d;
 
+}
+
+.singlepost {
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+	  clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+}
+
+.scroll-down{
+	position: absolute;
+	font-size: 25px;
+	right: 0;
+	bottom: 0;
+	color: #cd5348;
+}
+
+.scroll-down:hover{
+	opacity: 0.5;
+	cursor: pointer;
 }
